@@ -13,16 +13,16 @@ class MainActivity : AppCompatActivity() {
 
         boardList= listOf(
             Board(
-              fondo=R.color.aqua,
-              imagen = R.drawable.yo    ,
-                titulo2 = "Creador:",
-                descripcion2 = "Daniel Enrique Zaldaña Castillo"
+              fondo=R.color.black,
+              imagen = R.drawable.bold_collective_1   ,
+                text_titulo2 = "Creador:",
+                text_descripcion2 = "Moises Martinez"
             ),
             Board(
-                fondo=R.color.red,
-                imagen = R.drawable.ugb,
-                titulo2 = "Ubicaión UGB:",
-                descripcion2 = "Captura de panatlla de la UGB"
+                fondo=R.color.black,
+                imagen = R.drawable.ubicacion,
+                text_titulo2 = "Col. belen",
+                text_descripcion2 = "Captura de la ubicacion"
 
             )
         )

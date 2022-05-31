@@ -40,8 +40,8 @@ class ViewPagerAdapter(
         fun bind(board: Board)= with(itemView){
             contenedor.background = ContextCompat.getDrawable(context, board.fondo)
             imagen.setImageResource(board.imagen)
-            titulo.text=board.titulo2
-            descripcion.text = board.descripcion2
+            titulo.text=board.text_titulo2
+            descripcion.text = board.text_descripcion2
 
 
         }
